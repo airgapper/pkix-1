@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PacketFrame</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cantarell" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://packetframe.com/style.css">
+    <link rel="shortcut icon" href="https://packetframe.com/img/transparent.png">
+</head>
+
+<body>
+  <ul class="navc">
+    <li class="fl"><a href="/"><img class="navi" src="https://packetframe.com/img/text.png"></a></li>
+  </ul>
+
+  <h3>PKIX</h3>
+  <p>PKIX, the PacketFrame Internet Exchange, is an experimental IXP operated by <a href="https://packetframe.com/">PacketFrame</a> for network experimentation.<br>All networks are encouraged to join if they meet the following conditions.</p>
+
+  <ul>
+    <li>Have a public ASN from an ICANN-recognized RIR.</li>
+    <li>Have at least a /24 IPv4 and/or a /48 IPv6 allocation.</li>
+    <li>Peer over both IPv4 and IPv6 whenever possible.</li>
+    <li>Peer with both route servers.</li>
+    <li>Maintain an accurate and up to date <a href="https://peeringdb.com">PeeringDB</a> profile.</li>
+  </ul>
+
+  <h3>Connection</h3>
+  <p>PKIX supports physical cross connects via 1GigE Copper as well as 1GigE and 10GigE 850nm multimode fiber. Facilities can be found below. We also offer virtual connections through ZeroTier.</p>
+  <p>Configuration is built automatically from <a href="https://peeringdb.com">PeeringDB</a>. At a minimum, you must have your ASN, Network Name, and AS-SET up to date in PeeringDB.</p>
+
+  <p>Contact <a href="mailto:info@packetframe.com">info@packetframe.com</a> to set up your session.</p>
+
+  <p>PKIX uses the following networks on the fabric:</p>
+  <pre>{{ ipv4 }}</pre>
+  <pre>{{ ipv6 }}</pre>
+
+  <h3>Peers</h3>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>ASN</th>
+      <th>Site</th>
+      <th>Speed</th>
+      <th>IPv6</th>
+      <th>IPv6</th>
+    </thead>
+
+    <tbody>
+      {{ members_html }}
+    </tbody>
+  </table>
+
+  <h3>Services</h3>
+  <p>PKIX currently houses the following services.</p>
+  <ul>
+    <li>Private Stratum 1 NTP server operated by AS34553 on the exchange. Contact nate@natesales.net for access.</li>
+  </ul>
+  <p>More services coming in the future.</p>
+
+
+  <h3>Facilities</h3>
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Location</th>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>PacketFrame PDX1</td>
+        <td>Portland, OR</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <br>
+
+</body>
+
+</html>
